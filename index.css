@@ -39,3 +39,21 @@ align-items: center;
     align-items: center;
     display: flex;
 }
+.button-div{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.button-div div{
+    display: flex;
+    width: 90px;
+    height: 40px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: x-small;
+
+}
