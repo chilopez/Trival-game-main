@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+    width: screen;
+    border-bottom: 3px solid white;
+}
+
+.icon-div{
+width: 20vw;
+display: flex;
+justify-content: space-between;
+/* border: 1px solid red; */
+align-items: center;
+
+}
+.icon-div div{
+    display: flex;
+    width: 80px;
+    height: 25px;
+    border: 1px solid purple;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    font-size: xx-small;
+}
+
+.hero-left-div{
+    /* border: 2px solid red; */
+    width: 42%;
+    height: 300px;
+    padding-left: 80px;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
